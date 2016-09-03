@@ -1,0 +1,19 @@
+Package: Gcmulti
+Type: Package
+Title: Graficos de control Multivariantes
+Version: 1.0
+Date: 2016-08-29
+Authors@R: c(person("Jhonny", "Barahona", role = c("aut", "cre"), email = "jfbaraho@espol.edu.ec"),
+	person("Omar", "Ruiz", role = "aut", email = "oruiz@espol.edu.ec"))
+Author: Jhonny Barahona [aut, cre],
+  Omar Ruiz [aut]
+Maintainer: Jhonny Barahona <jfbaraho@espol.edu.ec>
+Description: Permite realizar los graficos de control multivariante T2 de
+    Hotelling, de doble dimension y de dimension variable.
+License: GPL (>=2)
+Imports: calibrate (>= 1.7.2), graphics (>= 3.1.3), stats (>= 3.1.3)
+Suggests:
+    MASS
+URL: https://github.com/jhonnybarahona
+Encoding: UTF-8
+RoxygenNote: 5.0.1

@@ -1,0 +1,4 @@
+importFrom("graphics", plot,axis,abline,text,points,mtext)
+importFrom("stats", pchisq,qchisq,dchisq,pnorm)
+importFrom("calibrate",textxy)
+export(grafica_T2,grafica_T2DD,grafica_T2DV)
